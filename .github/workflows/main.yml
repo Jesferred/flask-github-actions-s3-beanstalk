@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
     - name: git clone our repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4.1.7
 
     - name: create ZIP deployment package
       uses: zip -r ${{ env.DEPLOY_PACKAGE_NAME }} ./ -x *.git*

@@ -7,3 +7,5 @@ Instructions:
 2. Take environments from outputs.tf
 3. Paste into .github/main.yaml
 4. Set up Github Actions via main.yml
+
+(Previously you need role aws-ec2+elacticbeanstalk-service-role with associated EC2 and ElasticBeanstalk)
